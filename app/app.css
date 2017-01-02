@@ -1,0 +1,68 @@
+/* app css stylesheet */
+
+body {
+	background-color: #ef7970;
+	color: #FFFFFF;
+}
+
+#row {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+#welcome {
+	width: 75%;
+	margin: 130px auto 0px auto;
+	font-size: 120px;
+}
+
+#instructions {
+	width: 75%;
+	text-align: center;
+	margin: 50px auto 0px auto;
+}
+
+#search {
+	width: 50%;
+	margin: 40px auto 0 auto;
+}
+
+/* label color */
+.input-field label {
+	color: #FFFFFF;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: #FFFFFF;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 2px solid #FFFFFF;
+	box-shadow: 0 2px 0 0 #FFFFFF;
+}
+
+.input-field input[type=text] {
+	border-bottom: 2px solid #FFFFFF;
+	font-size: 24px;
+}
+
+form {
+	text-align: center;
+}
+
+#map {
+	height: 500px;
+	margin: 30px auto 0 auto;
+}
+
+li:hover {
+	font-weight: bold;
+}
+
+#list {
+	padding: 0 0 0 30px;
+}
+
+#btn {
+	margin: 0 auto 0 auto;
+}
